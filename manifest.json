@@ -1,0 +1,14 @@
+{
+  "name": "App Launcher",
+  "description": "Get access to your apps in a browser action",
+  "version": "0.7.3",
+  "browser_action": {
+    "default_title": "App Launcher",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
+}
